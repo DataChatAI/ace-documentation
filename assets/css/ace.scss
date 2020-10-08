@@ -6,14 +6,20 @@
 *   @license https://github.com/vantagedesign/ace-documentation/blob/master/LICENSE
 * ------------------------------------------------------------------------ */
 
-$primary:       #007bff;
-$secondary:     #6610f2;
+$primary: #ffffff; // header color
+$secondary: #ffffff;
+$tertiary: #95a4cb;
+$quaternary: #95a4cb;
+$header_background: #ffffff;
+$header_primary: #4e5a5f;
+$highlight: #95a4cb;
 $success:       #28a745;
 $info:          #17a2b8;
 $warning:       #ffc107;
-$danger:        #dc3545;
+$danger:        #f8745c;
 $light:         #f8f9fa;
 $dark:          #343a40;
+$love: #78168B;
 
 @import "bootstrap/bootstrap";
 
@@ -109,6 +115,42 @@ $dark:          #343a40;
 
 .docs-toc ul:first-child{
     padding-left:0;
+}
+
+/* embedded CSS from help.datachat.ai */
+button:not(.search-icon) {
+    border-radius: 4px;
+}
+
+a {
+    border-radius: 4px;
+    color: purple
+}
+
+code {
+    color: purple
+}
+
+.ember-view > li > .single-select-header {
+    border-radius: 4px;
+}
+
+.search-menu {
+    padding-right: 2em;
+}
+
+.search-icon {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#search-term {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+html {
+    font-family: Arial,Helvetica,sans-serif;
 }
 
 /* Table tweak for JavaScript methods */
