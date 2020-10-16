@@ -128,7 +128,7 @@ a {
 }
 
 code {
-    color: purple
+    color: purple // not default
 }
 
 .ember-view > li > .single-select-header {
@@ -151,6 +151,17 @@ code {
 
 html {
     font-family: Arial,Helvetica,sans-serif;
+}
+
+/* Navbar tweaks */
+#navBarMainInner {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+}
+
+#navbarMainCollapse {
+    float: right;
 }
 
 /* Table tweak for JavaScript methods */
