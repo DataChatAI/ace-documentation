@@ -5,6 +5,8 @@
 
     <link rel="canonical" href="{{ .Permalink }}">
 
+    <link rel="shortcut icon" href="{{ .Site.Params.head_icon }}">
+
     <title>
         {{ block "title" . }}
         {{ .Title}}{{ if ne .Title .Site.Title }} | {{ .Site.Title }}{{ end }}
