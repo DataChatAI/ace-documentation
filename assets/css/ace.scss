@@ -53,6 +53,7 @@ $love: #78168B;
 
 .navbar-brand img {
     height: 3rem;
+    border: none;
 }
 
 /* Side navigation menus */
@@ -126,6 +127,12 @@ button:not(.search-icon) {
 a {
     border-radius: 4px;
     color: #95a4cb;
+}
+
+img {
+    border: 1px solid black;
+    max-width: 100%;
+    height: auto;
 }
 
 code {
